@@ -1,0 +1,476 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00000 
+   (rule
+   )
+   (wire (path BOT 63499  -5516000 -9144000 -7366000 -9144000 -7366000 -8700000
+     -7608000 -8700000)
+    (connect (terminal wire) (terminal pin HC-SR04-3-0))
+   )
+   (wire (path BOT 63499  -12700000 -4684000 -12700000 -4275457 -12636500 -4275457
+     -12636500 -3556000 -12128500 -3556000 -12128500 -3800000 -11892000 -3800000)
+    (connect (terminal pin "SERVO 3"-2) (terminal pin "SERVO 4"-2))
+   )
+   (wire (path BOT 63499  -11049000 -3556000 -11049000 -4191000 -8700000 -4191000
+     -8700000 -3800000)
+    (connect (terminal wire) (terminal pin "MOTION 2"-2))
+   )
+   (wire (path BOT 63499  5076000 -8700000 5334000 -8700000 5334000 -9080500
+     7192000 -9080500 7192000 -8953500)
+    (connect (terminal pin TPM-300-1-0) (terminal wire))
+   )
+   (wire (path BOT 63499  -9724000 -8700000 -9724000 -8953500 -11049000 -8953500
+     -11049000 -8445500 -11811000 -8445500)
+    (connect (terminal pin HC-SR04-2-0) (terminal wire))
+   )
+   (wire (path BOT 63499  9276000 -8700000 9276000 -8953500 7192000 -8953500)
+    (connect (terminal pin J1-0) (terminal wire))
+   )
+   (wire (path BOT 63499  7556500 -4191000 7556500 -6108000 10500000 -6108000)
+    (connect (terminal wire) (terminal pin POWER-1))
+   )
+   (wire (path BOT 63499  -11049000 -3556000 -11892000 -3556000 -11892000 -3800000)
+    (connect (terminal wire) (terminal pin "SERVO 4"-2))
+   )
+   (wire (path BOT 63499  -11049000 -3556000 -10300000 -3556000 -10300000 -3800000)
+    (connect (terminal wire) (terminal pin "MOTION 1"-2))
+   )
+   (wire (path BOT 63499  7684000 -3800000 7684000 -4191000 7556500 -4191000)
+    (connect (terminal pin I2C-0) (terminal wire))
+   )
+   (wire (path BOT 63499  -11811000 -8445500 -11811000 -8700000 -11824000 -8700000)
+    (connect (terminal wire) (terminal pin HC-SR04-1-0))
+   )
+   (wire (path BOT 63499  5076000 -8700000 5076000 -9144000 -3175000 -9144000
+     -3175000 -8700000 -3408000 -8700000)
+    (connect (terminal pin TPM-300-1-0) (terminal pin HC-SR04-5-0))
+   )
+   (wire (path BOT 63499  -12700000 -7900000 -13017500 -7900000 -13017500 -6540500
+     -12700000 -6540500 -12700000 -6292000)
+    (connect (terminal pin "SERVO 1"-2) (terminal pin "SERVO 2"-2))
+   )
+   (wire (path BOT 63499  -12700000 -6292000 -13017500 -6292000 -13017500 -4684000
+     -12700000 -4684000)
+    (connect (terminal pin "SERVO 2"-2) (terminal pin "SERVO 3"-2))
+   )
+   (wire (path BOT 63499  7556500 -4191000 6858000 -4191000 6858000 -3556000
+     6350000 -3556000 6350000 -4826000 6731000 -4826000 6731000 -8064500
+     9276000 -8064500 9276000 -8700000)
+    (connect (terminal wire) (terminal pin J1-0))
+   )
+   (wire (path BOT 63499  -3408000 -8700000 -3408000 -9144000 -5516000 -9144000)
+    (connect (terminal pin HC-SR04-5-0) (terminal wire))
+   )
+   (wire (path BOT 63499  -5516000 -9144000 -5516000 -8700000)
+    (connect (terminal wire) (terminal pin HC-SR04-4-0))
+   )
+   (wire (path BOT 63499  7192000 -8953500 7192000 -8700000)
+    (connect (terminal wire) (terminal pin TPM-300-2-0))
+   )
+   (wire (path BOT 63499  -7608000 -8700000 -7608000 -9017000 -8953500 -9017000
+     -8953500 -8318500 -9724000 -8318500 -9724000 -8700000)
+    (connect (terminal pin HC-SR04-3-0) (terminal pin HC-SR04-2-0))
+   )
+   (wire (path BOT 63499  -12700000 -7900000 -11811000 -7900000 -11811000 -8445500)
+    (connect (terminal pin "SERVO 1"-2) (terminal wire))
+   )
+   )
+   (Net #00001 
+   (rule
+   )
+   (wire (path BOT 63499  -6667500 -3556000 -6667500 -3175000 -13144500 -3175000
+     -13144500 -8408000 -12700000 -8408000)
+    (connect (terminal wire) (terminal pin "SERVO 1"-1))
+   )
+   (wire (path BOT 63499  10500000 -5600000 8192000 -5600000 8192000 -3800000)
+    (connect (terminal pin POWER-0) (terminal pin I2C-1))
+   )
+   (wire (path BOT 63499  -7100000 -8700000 -7100000 -7112000 -3111500 -7112000
+     -3111500 -3429000 -5207000 -3429000 -5207000 -4191000 -5715000 -4191000
+     -5715000 -3556000 -6667500 -3556000)
+    (connect (terminal pin HC-SR04-3-1) (terminal wire))
+   )
+   (wire (path BOT 63499  2984000 -8700000 2984000 -6573447 2159000 -6573447
+     2159000 -3048000 11176000 -3048000 11176000 -8953500 10541000 -8953500)
+    (connect (terminal pin HC-SR04-8-0) (terminal wire))
+   )
+   (wire (path BOT 63499  -6667500 -3556000 -6773424 -3556000 -6773424 -4064000
+     -7810500 -4064000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 63499  -12700000 -8408000 -12192000 -8408000 -12192000 -8953500
+     -11557000 -8953500 -11557000 -8700000 -11316000 -8700000)
+    (connect (terminal pin "SERVO 1"-1) (terminal pin HC-SR04-1-1))
+   )
+   (wire (path BOT 63499  -7810500 -4064000 -7810500 -3556000 -9208000 -3556000
+     -9208000 -3800000)
+    (connect (terminal wire) (terminal pin "MOTION 2"-1))
+   )
+   (wire (path BOT 63499  -12700000 -5192000 -12382500 -5192000 -12382500 -4445000)
+    (connect (terminal pin "SERVO 3"-1) (terminal wire))
+   )
+   (wire (path BOT 63499  10541000 -8953500 9784000 -8953500 9784000 -8700000)
+    (connect (terminal wire) (terminal pin J1-1))
+   )
+   (wire (path BOT 63499  10500000 -5600000 10731500 -5600000 10731500 -7697032
+     10541000 -7697032 10541000 -8953500)
+    (connect (terminal pin POWER-0) (terminal wire))
+   )
+   (wire (path BOT 63499  5584000 -8700000 5584000 -8953500 6858000 -8953500
+     6858000 -8445500 7700000 -8445500 7700000 -8700000)
+    (connect (terminal pin TPM-300-1-1) (terminal pin TPM-300-2-1))
+   )
+   (wire (path BOT 63499  -2900000 -8700000 -2900000 -8445500 -3746500 -8445500
+     -3746500 -9017000 -5008000 -9017000 -5008000 -8700000)
+    (connect (terminal pin HC-SR04-5-1) (terminal pin HC-SR04-4-1))
+   )
+   (wire (path BOT 63499  -11316000 -8700000 -11316000 -9207500 -9216000 -9207500
+     -9216000 -8700000)
+    (connect (terminal pin HC-SR04-1-1) (terminal pin HC-SR04-2-1))
+   )
+   (wire (path BOT 63499  -5008000 -8700000 -5008000 -8318500 -5842000 -8318500
+     -5842000 -9017000 -7100000 -9017000 -7100000 -8700000)
+    (connect (terminal pin HC-SR04-4-1) (terminal pin HC-SR04-3-1))
+   )
+   (wire (path BOT 63499  3492000 -8700000 3492000 -9017000 4762500 -9017000
+     4762500 -8318500 5584000 -8318500 5584000 -8700000)
+    (connect (terminal pin HC-SR04-8-1) (terminal pin TPM-300-1-1))
+   )
+   (wire (path BOT 63499  2984000 -8700000 2984000 -8953500 1292000 -8953500
+     1292000 -8700000)
+    (connect (terminal pin HC-SR04-8-0) (terminal pin HC-SR04-7-1))
+   )
+   (wire (path BOT 63499  -12700000 -5192000 -12919075 -5192000 -12919075 -6032500
+     -12446000 -6032500 -12446000 -6800000 -12700000 -6800000)
+    (connect (terminal pin "SERVO 3"-1) (terminal pin "SERVO 2"-1))
+   )
+   (wire (path BOT 63499  -9208000 -3800000 -9208000 -4064000 -10808000 -4064000
+     -10808000 -3800000)
+    (connect (terminal pin "MOTION 2"-1) (terminal pin "MOTION 1"-1))
+   )
+   (wire (path BOT 63499  -1308000 -8700000 -1308000 -9017000 -2900000 -9017000
+     -2900000 -8700000)
+    (connect (terminal pin HC-SR04-6-0) (terminal pin HC-SR04-5-1))
+   )
+   (wire (path BOT 63499  784000 -8700000 784000 -8953500 -800000 -8953500
+     -800000 -8700000)
+    (connect (terminal pin HC-SR04-7-0) (terminal pin HC-SR04-6-1))
+   )
+   (wire (path BOT 63499  1292000 -8700000 784000 -8700000)
+    (connect (terminal pin HC-SR04-7-1) (terminal pin HC-SR04-7-0))
+   )
+   (wire (path BOT 63499  -800000 -8700000 -1308000 -8700000)
+    (connect (terminal pin HC-SR04-6-1) (terminal pin HC-SR04-6-0))
+   )
+   (wire (path BOT 63499  2984000 -8700000 3492000 -8700000)
+    (connect (terminal pin HC-SR04-8-0) (terminal pin HC-SR04-8-1))
+   )
+   (wire (path BOT 63499  -12382500 -4445000 -12382500 -4318000 -12400000 -4318000
+     -12400000 -3800000)
+    (connect (terminal wire) (terminal pin "SERVO 4"-1))
+   )
+   (wire (path BOT 63499  -12382500 -4445000 -7810500 -4445000 -7810500 -4064000)
+    (connect (terminal wire) (terminal wire))
+   )
+   )
+   (Net #00002 
+   (rule
+   )
+   (wire (path BOT 63499  -10808000 -8700000 -10808000 -6604000 -4900000 -6604000
+     -4900000 -3800000)
+    (connect (terminal pin HC-SR04-1-2) (terminal pin ESP6-3))
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   (wire (path BOT 63499  -10300000 -8700000 -10300000 -6731000 -4392000 -6731000
+     -4392000 -3800000)
+    (connect (terminal pin HC-SR04-1-3) (terminal pin ESP6-2))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path BOT 63499  -8708000 -8700000 -8708000 -6858000 -3884000 -6858000
+     -3884000 -3800000)
+    (connect (terminal pin HC-SR04-2-2) (terminal pin ESP6-1))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path BOT 63499  -8200000 -8700000 -8200000 -6985000 -3376000 -6985000
+     -3376000 -3800000)
+    (connect (terminal pin HC-SR04-2-3) (terminal pin ESP6-0))
+   )
+   )
+   (Net #00006 
+   (rule
+   )
+   (wire (path BOT 63499  -6592000 -8700000 -6592000 -7239000 -2808000 -7239000
+     -2808000 -3800000)
+    (connect (terminal pin HC-SR04-3-2) (terminal pin ESP5-3))
+   )
+   )
+   (Net #00007 
+   (rule
+   )
+   (wire (path BOT 63499  -6084000 -8700000 -6084000 -7683500 -2300000 -7683500
+     -2300000 -3800000)
+    (connect (terminal pin HC-SR04-3-3) (terminal pin ESP5-2))
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path BOT 63499  -4500000 -8700000 -4500000 -7810500 -1792000 -7810500
+     -1792000 -3800000)
+    (connect (terminal pin HC-SR04-4-2) (terminal pin ESP5-1))
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   (wire (path BOT 63499  -3992000 -8700000 -3992000 -7944506 -1284000 -7944506
+     -1284000 -3800000)
+    (connect (terminal pin HC-SR04-4-3) (terminal pin ESP5-0))
+   )
+   )
+   (Net #00010 
+   (rule
+   )
+   (wire (path BOT 63499  -2392000 -8700000 -2392000 -8318500 -708000 -8318500
+     -708000 -3800000)
+    (connect (terminal pin HC-SR04-5-2) (terminal pin ESP4-3))
+   )
+   )
+   (Net #00011 
+   (rule
+   )
+   (wire (path BOT 63499  -1884000 -8700000 -1884000 -8445500 -444500 -8445500
+     -444500 -3800000 -200000 -3800000)
+    (connect (terminal pin HC-SR04-5-3) (terminal pin ESP4-2))
+   )
+   )
+   (Net #00012 
+   (rule
+   )
+   (wire (path BOT 63499  -292000 -8700000 -292000 -4293999 308000 -4293999
+     308000 -3800000)
+    (connect (terminal pin HC-SR04-6-2) (terminal pin ESP4-1))
+   )
+   )
+   (Net #00013 
+   (rule
+   )
+   (wire (path BOT 63499  216000 -8700000 216000 -7570365 816000 -7570365
+     816000 -3800000)
+    (connect (terminal pin HC-SR04-6-3) (terminal pin ESP4-0))
+   )
+   )
+   (Net #00014 
+   (rule
+   )
+   (wire (path BOT 63499  1800000 -8700000 1800000 -7463157 1392000 -7463157
+     1392000 -3800000)
+    (connect (terminal pin HC-SR04-7-2) (terminal pin ESP3-3))
+   )
+   )
+   (Net #00015 
+   (rule
+   )
+   (wire (path BOT 63499  2308000 -8700000 2308000 -6794500 1900000 -6794500
+     1900000 -3800000)
+    (connect (terminal pin HC-SR04-7-3) (terminal pin ESP3-2))
+   )
+   )
+   (Net #00016 
+   (rule
+   )
+   (wire (path BOT 63499  4000000 -8700000 4000000 -6477000 2408000 -6477000
+     2408000 -3800000)
+    (connect (terminal pin HC-SR04-8-2) (terminal pin ESP3-1))
+   )
+   )
+   (Net #00017 
+   (rule
+   )
+   (wire (path BOT 63499  4508000 -8700000 4508000 -6032500 2916000 -6032500
+     2916000 -3800000)
+    (connect (terminal pin HC-SR04-8-3) (terminal pin ESP3-0))
+   )
+   )
+   (Net #00018 
+   (rule
+   )
+   (wire (path BOT 63499  3500000 -3800000 3500000 -5905500 6092000 -5905500
+     6092000 -8700000)
+    (connect (terminal pin ESP2-3) (terminal pin TPM-300-1-2))
+   )
+   )
+   (Net #00019 
+   (rule
+   )
+   (wire (path BOT 63499  4008000 -3800000 4008000 -5397500 6350000 -5397500
+     6350000 -8700000 6600000 -8700000)
+    (connect (terminal pin ESP2-2) (terminal pin TPM-300-1-3))
+   )
+   )
+   (Net #00020 
+   (rule
+   )
+   (wire (path BOT 63499  8208000 -8700000 8208000 -8318500 6477000 -8318500
+     6477000 -5270500 4516000 -5270500 4516000 -3800000)
+    (connect (terminal pin TPM-300-2-2) (terminal pin ESP2-1))
+   )
+   )
+   (Net #00021 
+   (rule
+   )
+   (wire (path BOT 63499  5024000 -3800000 5024000 -5143500 6604000 -5143500
+     6604000 -8191500 8716000 -8191500 8716000 -8700000)
+    (connect (terminal pin ESP2-0) (terminal pin TPM-300-2-3))
+   )
+   )
+   (Net #00022 
+   (rule
+   )
+   (wire (path BOT 63499  -5476000 -3800000 -5476000 -2921000 -13398500 -2921000
+     -13398500 -8916000 -12700000 -8916000)
+    (connect (terminal pin ESP7-0) (terminal pin "SERVO 1"-0))
+   )
+   )
+   (Net #00023 
+   (rule
+   )
+   (wire (path BOT 63499  -5984000 -3800000 -5984000 -6349678 -11064807 -6349678
+     -11064807 -7308000 -12700000 -7308000)
+    (connect (terminal pin ESP7-1) (terminal pin "SERVO 2"-0))
+   )
+   )
+   (Net #00024 
+   (rule
+   )
+   (wire (path BOT 63499  -6492000 -3800000 -6492000 -5700000 -12700000 -5700000)
+    (connect (terminal pin ESP7-2) (terminal pin "SERVO 3"-0))
+   )
+   )
+   (Net #00025 
+   (rule
+   )
+   (wire (path BOT 63499  -7000000 -3800000 -7000000 -3302000 -12908000 -3302000
+     -12908000 -3800000)
+    (connect (terminal pin ESP7-3) (terminal pin "SERVO 4"-0))
+   )
+   )
+   (Net #00026 
+   (rule
+   )
+   (wire (path BOT 63499  -11316000 -3800000 -11316000 -4318000 -8100000 -4318000
+     -8100000 -3800000)
+    (connect (terminal pin "MOTION 1"-0) (terminal pin ESP8-0))
+   )
+   )
+   (Net #00027 
+   (rule
+   )
+   (wire (path BOT 63499  -9716000 -3800000 -9716000 -3429000 -7592000 -3429000
+     -7592000 -3800000)
+    (connect (terminal pin "MOTION 2"-0) (terminal pin ESP8-1))
+   )
+   )
+   (Net #00028 
+   (rule
+   )
+   (wire (path BOT 63499  5600000 -3800000 5600000 -3302000 9588500 -3302000
+     9588500 -4191000 8700000 -4191000 8700000 -3800000)
+    (connect (terminal pin ESP1-3) (terminal pin I2C-2))
+   )
+   )
+   (Net #00029 
+   (rule
+   )
+   (wire (path BOT 63499  6108000 -3800000 6108000 -3429000 9208000 -3429000
+     9208000 -3800000)
+    (connect (terminal pin ESP1-2) (terminal pin I2C-3))
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   (wire (path BOT 63499  10292000 -8700000 10292000 -7937500 6998678 -7937500
+     6998678 -4445000 6616000 -4445000 6616000 -3800000)
+    (connect (terminal pin J1-2) (terminal pin ESP1-1))
+   )
+   )
+   (Net #00031 
+   (rule
+   )
+   (wire (path BOT 63499  7124000 -3800000 7124000 -3556000 8445500 -3556000
+     8445500 -4663073 11049000 -4663073 11049000 -8191500 10800000 -8191500
+     10800000 -8700000)
+    (connect (terminal pin ESP1-0) (terminal pin J1-3))
+   )
+   )
+  )
+ )

@@ -1,0 +1,807 @@
+(PCB New_Project
+ (parser
+  (host_cad ARES)
+  (host_version 8.11 SP0)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -151.10160 -97.10160 150.10160 88.10160))
+  (boundary (path signal 0.20320 -151.00000 -97.00000 150.00000 -97.00000 150.00000 88.00000
+   -151.00000 88.00000 -151.00000 -97.00000))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction off))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction orthogonal))
+  (grid via  0.63500)
+  (grid wire 0.63500)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA#0_SIGNAL
+   (spare
+   )
+  )
+  (rule
+   (width 0.25400)
+   (clearance 0.38100)
+   (clearance 0.25400 (type wire_via))
+   (clearance 0.25400 (type wire_smd))
+   (clearance 0.25400 (type wire_pin))
+   (clearance 0.25400 (type wire_wire))
+   (clearance 0.25400 (type via_pin))
+   (clearance 0.25400 (type via_via))
+   (clearance 0.25400 (type via_smd))
+  )
+ )
+ (placement
+  (component "TBLOCK-I4_HC-SR04-8" (place "HC-SR04-8" 29.84000 -87.00000 front 0))
+  (component "TBLOCK-I4_HC-SR04-7" (place "HC-SR04-7" 7.84000 -87.00000 front 0))
+  (component "TBLOCK-I4_ESP3" (place ESP3 29.16000 -38.00000 front 180))
+  (component "TBLOCK-I4_HC-SR04-6" (place "HC-SR04-6" -13.08000 -87.00000 front 0))
+  (component "TBLOCK-I4_HC-SR04-5" (place "HC-SR04-5" -34.08000 -87.00000 front 0))
+  (component "TBLOCK-I4_ESP4" (place ESP4 8.16000 -38.00000 front 180))
+  (component "TBLOCK-I4_HC-SR04-4" (place "HC-SR04-4" -55.16000 -87.00000 front 0))
+  (component "TBLOCK-I4_HC-SR04-3" (place "HC-SR04-3" -76.08000 -87.00000 front 0))
+  (component "TBLOCK-I4_ESP5" (place ESP5 -12.84000 -38.00000 front 180))
+  (component "TBLOCK-I4_HC-SR04-2" (place "HC-SR04-2" -97.24000 -87.00000 front 0))
+  (component "TBLOCK-I4_HC-SR04-1" (place "HC-SR04-1" -118.24000 -87.00000 front 0))
+  (component "TBLOCK-I4_ESP6" (place ESP6 -33.76000 -38.00000 front 180))
+  (component "TBLOCK-I4_I2C" (place I2C 76.84000 -38.00000 front 0))
+  (component "TBLOCK-I4_J1" (place J1 92.76000 -87.00000 front 0))
+  (component "TBLOCK-I4_ESP1" (place ESP1 71.24000 -38.00000 front 180))
+  (component "TBLOCK-I4_ESP7" (place ESP7 -54.76000 -38.00000 front 180))
+  (component "TBLOCK-I3_SERVO 4" (place "SERVO 4" -129.08000 -38.00000 front 0))
+  (component "TBLOCK-I3_SERVO 3" (place "SERVO 3" -127.00000 -57.00000 front 90))
+  (component "TBLOCK-I3_SERVO 2" (place "SERVO 2" -127.00000 -73.08000 front 90))
+  (component "TBLOCK-I3_SERVO 1" (place "SERVO 1" -127.00000 -89.16000 front 90))
+  (component "TBLOCK-I4_ESP2" (place ESP2 50.24000 -38.00000 front 180))
+  (component "TBLOCK-I4_TPM-300-2" (place "TPM-300-2" 71.92000 -87.00000 front 0))
+  (component "TBLOCK-I4_TPM-300-1" (place "TPM-300-1" 50.76000 -87.00000 front 0))
+  (component "TBLOCK-I2_POWER" (place POWER 105.00000 -56.00000 front 270))
+  (component "TBLOCK-I3_MOTION 2" (place "MOTION 2" -97.16000 -38.00000 front 0))
+  (component "TBLOCK-I3_MOTION 1" (place "MOTION 1" -113.16000 -38.00000 front 0))
+  (component "TBLOCK-I2_ESP8" (place ESP8 -81.00000 -38.00000 front 0))
+ )
+ (library
+  (image "TBLOCK-I4_HC-SR04-8" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_HC-SR04-7" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_ESP3" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_HC-SR04-6" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_HC-SR04-5" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_ESP4" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_HC-SR04-4" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_HC-SR04-3" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_ESP5" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_HC-SR04-2" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_HC-SR04-1" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_ESP6" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_I2C" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_J1" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_ESP1" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_ESP7" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I3_SERVO 4" (side front)
+   (outline (rect TOP -2.64160 -5.18160 12.80160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+  )
+  (image "TBLOCK-I3_SERVO 3" (side front)
+   (outline (rect TOP -2.64160 -5.18160 12.80160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+  )
+  (image "TBLOCK-I3_SERVO 2" (side front)
+   (outline (rect TOP -2.64160 -5.18160 12.80160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+  )
+  (image "TBLOCK-I3_SERVO 1" (side front)
+   (outline (rect TOP -2.64160 -5.18160 12.80160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+  )
+  (image "TBLOCK-I4_ESP2" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_TPM-300-2" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I4_TPM-300-1" (side front)
+   (outline (rect TOP -2.64160 -5.18160 17.88160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+   (pin PS0 (rotate 0) 3 15.24000 0.00000)
+  )
+  (image "TBLOCK-I2_POWER" (side front)
+   (outline (rect TOP -2.64160 -5.18160 7.72160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+  )
+  (image "TBLOCK-I3_MOTION 2" (side front)
+   (outline (rect TOP -2.64160 -5.18160 12.80160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+  )
+  (image "TBLOCK-I3_MOTION 1" (side front)
+   (outline (rect TOP -2.64160 -5.18160 12.80160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+   (pin PS0 (rotate 0) 2 10.16000 0.00000)
+  )
+  (image "TBLOCK-I2_ESP8" (side front)
+   (outline (rect TOP -2.64160 -5.18160 7.72160 5.18160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 5.08000 0.00000)
+  )
+  (padstack PS0 (absolute on)
+   (shape (circle TOP 3.04800 0 0))
+   (shape (circle I1 3.04800 0 0))
+   (shape (circle I2 3.04800 0 0))
+   (shape (circle I3 3.04800 0 0))
+   (shape (circle I4 3.04800 0 0))
+   (shape (circle I5 3.04800 0 0))
+   (shape (circle I6 3.04800 0 0))
+   (shape (circle I7 3.04800 0 0))
+   (shape (circle I8 3.04800 0 0))
+   (shape (circle I9 3.04800 0 0))
+   (shape (circle I10 3.04800 0 0))
+   (shape (circle I11 3.04800 0 0))
+   (shape (circle I12 3.04800 0 0))
+   (shape (circle I13 3.04800 0 0))
+   (shape (circle I14 3.04800 0 0))
+   (shape (circle BOT 3.04800 0 0))
+  )
+  (padstack $VIA#0_SIGNAL (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+ )
+ (network
+  (net "#00000"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+    (pins "HC-SR04-8"-0 "HC-SR04-7"-0 "HC-SR04-6"-0 "HC-SR04-5"-0 "HC-SR04-4"-0 "HC-SR04-3"-0
+     "HC-SR04-2"-0 "HC-SR04-1"-0 I2C-0 J1-0 "SERVO 4"-2 "SERVO 3"-2 "SERVO 2"-2 "SERVO 1"-2
+    "TPM-300-2"-0 "TPM-300-1"-0 POWER-1 "MOTION 2"-2 "MOTION 1"-2)
+  )
+  (net "#00001"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+    (pins "HC-SR04-8"-1 "HC-SR04-7"-1 "HC-SR04-6"-1 "HC-SR04-5"-1 "HC-SR04-4"-1 "HC-SR04-3"-1
+     "HC-SR04-2"-1 "HC-SR04-1"-1 I2C-1 J1-1 "SERVO 4"-1 "SERVO 3"-1 "SERVO 2"-1 "SERVO 1"-1
+    "TPM-300-2"-1 "TPM-300-1"-1 POWER-0 "MOTION 2"-1 "MOTION 1"-1)
+  )
+  (net "#00002"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-1"-2 ESP6-3)
+  )
+  (net "#00003"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-1"-3 ESP6-2)
+  )
+  (net "#00004"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-2"-2 ESP6-1)
+  )
+  (net "#00005"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-2"-3 ESP6-0)
+  )
+  (net "#00006"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-3"-2 ESP5-3)
+  )
+  (net "#00007"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-3"-3 ESP5-2)
+  )
+  (net "#00008"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-4"-2 ESP5-1)
+  )
+  (net "#00009"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-4"-3 ESP5-0)
+  )
+  (net "#00010"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-5"-2 ESP4-3)
+  )
+  (net "#00011"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-5"-3 ESP4-2)
+  )
+  (net "#00012"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-6"-2 ESP4-1)
+  )
+  (net "#00013"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-6"-3 ESP4-0)
+  )
+  (net "#00014"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-7"-2 ESP3-3)
+  )
+  (net "#00015"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-7"-3 ESP3-2)
+  )
+  (net "#00016"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-8"-2 ESP3-1)
+  )
+  (net "#00017"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "HC-SR04-8"-3 ESP3-0)
+  )
+  (net "#00018"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESP2-3 "TPM-300-1"-2)
+  )
+  (net "#00019"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESP2-2 "TPM-300-1"-3)
+  )
+  (net "#00020"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESP2-1 "TPM-300-2"-2)
+  )
+  (net "#00021"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESP2-0 "TPM-300-2"-3)
+  )
+  (net "#00022"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESP7-0 "SERVO 1"-0)
+  )
+  (net "#00023"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESP7-1 "SERVO 2"-0)
+  )
+  (net "#00024"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESP7-2 "SERVO 3"-0)
+  )
+  (net "#00025"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESP7-3 "SERVO 4"-0)
+  )
+  (net "#00026"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "MOTION 1"-0 ESP8-0)
+  )
+  (net "#00027"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins "MOTION 2"-0 ESP8-1)
+  )
+  (net "#00028"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins I2C-2 ESP1-3)
+  )
+  (net "#00029"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins I2C-3 ESP1-2)
+  )
+  (net "#00030"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-2 ESP1-1)
+  )
+  (net "#00031"
+   (circuit
+    (use_layer BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J1-3 ESP1-0)
+  )
+  (class SIGNAL
+   "#00000"
+   "#00001"
+   "#00002"
+   "#00003"
+   "#00004"
+   "#00005"
+   "#00006"
+   "#00007"
+   "#00008"
+   "#00009"
+   "#00010"
+   "#00011"
+   "#00012"
+   "#00013"
+   "#00014"
+   "#00015"
+   "#00016"
+   "#00017"
+   "#00018"
+   "#00019"
+   "#00020"
+   "#00021"
+   "#00022"
+   "#00023"
+   "#00024"
+   "#00025"
+   "#00026"
+   "#00027"
+   "#00028"
+   "#00029"
+   "#00030"
+   "#00031"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 0.63499)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+ )
+ (wiring
+   (wire (path BOT 0.63499 75.56500 -41.91000 75.56500 -59.69000 76.95500 -61.08000 105.00000 -61.08000
+  ) (net "#00000"))
+   (wire (path BOT 0.63499 -97.24000 -87.00000 -99.77500 -89.53500 -109.22000 -89.53500
+    -110.49000 -88.26500 -110.49000 -84.45500 -111.76000 -83.18500 -117.60500 -83.18500
+  ) (net "#00000"))
+   (wire (path BOT 0.63499 -127.00000 -46.84000 -127.00000 -41.91000 -126.36500 -41.27500
+    -126.36500 -36.83000 -125.09500 -35.56000 -121.36000 -35.56000 -118.92000 -38.00000
+  ) (net "#00000"))
+   (wire (path BOT 0.63499 -110.49000 -36.19500 -110.49000 -40.64000 -109.22000 -41.91000
+   -90.91000 -41.91000 -87.00000 -38.00000) (net "#00000"))
+   (wire (path BOT 0.63499 -76.08000 -89.53500 -88.26500 -89.53500 -89.53500 -88.26500
+    -89.53500 -84.45500 -90.80500 -83.18500 -93.42500 -83.18500 -97.24000 -87.00000)
+   (net "#00000"))
+   (wire (path BOT 0.63499 -34.08000 -87.00000 -36.61500 -89.53500 -52.62500 -89.53500
+   -55.16000 -87.00000) (net "#00000"))
+   (wire (path BOT 0.63499 -117.60500 -83.18500 -121.79000 -79.00000 -127.00000 -79.00000
+  ) (net "#00000"))
+   (wire (path BOT 0.63499 -118.92000 -38.00000 -116.48000 -35.56000 -111.12500 -35.56000
+   -110.49000 -36.19500) (net "#00000"))
+   (wire (path BOT 0.63499 -110.49000 -36.19500 -109.85500 -35.56000 -105.44000 -35.56000
+   -103.00000 -38.00000) (net "#00000"))
+   (wire (path BOT 0.63499 75.56500 -41.91000 76.84000 -40.63500 76.84000 -38.00000)
+   (net "#00000"))
+   (wire (path BOT 0.63499 92.76000 -87.00000 85.13500 -79.37500 70.48500 -79.37500 68.76051 -77.65051
+    68.76051 -51.43500 63.50000 -46.17449 63.50000 -36.83000 64.77000 -35.56000 67.31000 -35.56000
+    68.58000 -36.83000 68.58000 -40.64000 69.85000 -41.91000 75.56500 -41.91000) (net "#00000")
+  )
+   (wire (path BOT 0.63499 -34.08000 -87.00000 -28.99500 -81.91500 -11.43000 -81.91500
+    -10.16000 -80.64500 -10.16000 -29.21000 -8.89000 -27.94000 114.30000 -27.94000 115.57000 -29.21000
+    115.57000 -92.07500 114.30000 -93.34500 99.10500 -93.34500 92.76000 -87.00000) (net "#00000")
+  )
+   (wire (path BOT 0.63499 -55.16000 -89.53500 -56.43000 -90.80500 -72.27500 -90.80500
+   -76.08000 -87.00000) (net "#00000"))
+   (wire (path BOT 0.63499 92.76000 -87.00000 89.59000 -90.17000 75.09000 -90.17000 71.92000 -87.00000
+  ) (net "#00000"))
+   (wire (path BOT 0.63499 -127.00000 -62.92000 -130.17500 -62.92000 -130.17500 -50.01500
+   -127.00000 -46.84000) (net "#00000"))
+   (wire (path BOT 0.63499 -127.00000 -79.00000 -130.17500 -75.82500 -130.17500 -66.09500
+   -127.00000 -62.92000) (net "#00000"))
+   (wire (path BOT 0.63499 -117.60500 -83.18500 -118.24000 -83.82000 -118.24000 -87.00000
+  ) (net "#00000"))
+  (wire (path BOT 0.63499 -55.16000 -87.00000 -55.16000 -89.53500) (net "#00000"))
+  (wire (path BOT 0.63499 -76.08000 -87.00000 -76.08000 -89.53500) (net "#00000"))
+   (wire (path BOT 0.63499 71.92000 -87.00000 71.92000 -89.37000 70.48500 -90.80500 54.56500 -90.80500
+   50.76000 -87.00000) (net "#00000"))
+   (wire (path BOT 0.63499 -127.00000 -84.08000 -131.44500 -79.63500 -131.44500 -33.02000
+   -130.17500 -31.75000 -69.21500 -31.75000 -66.67500 -34.29000) (net "#00001"))
+   (wire (path BOT 0.63499 105.00000 -56.00000 83.82000 -56.00000 81.92000 -54.10000
+   81.92000 -38.00000) (net "#00001"))
+   (wire (path BOT 0.63499 -29.00000 -87.00000 -35.34500 -93.34500 -90.80500 -93.34500
+   -92.07500 -92.07500) (net "#00001"))
+   (wire (path BOT 0.63499 -66.67500 -34.29000 -58.42000 -34.29000 -57.15000 -35.56000
+    -57.15000 -40.64000 -55.88000 -41.91000 -53.34000 -41.91000 -52.07000 -40.64000 -52.07000 -35.56000
+    -50.80000 -34.29000 -32.38500 -34.29000 -31.11500 -35.56000 -31.11500 -74.29500 -32.38500 -75.56500
+   -69.73000 -75.56500 -71.00000 -76.83500 -71.00000 -87.00000) (net "#00001"))
+   (wire (path BOT 0.63499 -78.74000 -40.00500 -83.18500 -44.45000 -122.55500 -44.45000
+  ) (net "#00001"))
+   (wire (path BOT 0.63499 -92.16000 -87.00000 -96.60000 -91.44000 -111.76000 -91.44000
+   -113.16000 -90.04000 -113.16000 -87.00000) (net "#00001"))
+   (wire (path BOT 0.63499 -66.67500 -34.29000 -67.73424 -35.34924 -67.73424 -39.37000
+   -69.00424 -40.64000 -78.10500 -40.64000 -78.74000 -40.00500) (net "#00001"))
+   (wire (path BOT 0.63499 -113.16000 -87.00000 -115.69500 -89.53500 -121.54500 -89.53500
+   -127.00000 -84.08000) (net "#00001"))
+   (wire (path BOT 0.63499 -78.74000 -40.00500 -78.74000 -36.83000 -80.01000 -35.56000
+   -89.64000 -35.56000 -92.08000 -38.00000) (net "#00001"))
+   (wire (path BOT 0.63499 -122.55500 -44.45000 -122.55500 -47.47500 -127.00000 -51.92000
+  ) (net "#00001"))
+   (wire (path BOT 0.63499 107.31500 -89.53500 106.04500 -90.80500 101.64500 -90.80500
+   97.84000 -87.00000) (net "#00001"))
+   (wire (path BOT 0.63499 105.41000 -88.90000 105.41000 -76.20000 107.31500 -74.29500
+   107.31500 -58.31500 105.00000 -56.00000) (net "#00001"))
+   (wire (path BOT 0.63499 -122.55500 -44.45000 -124.00000 -43.00500 -124.00000 -38.00000
+  ) (net "#00001"))
+   (wire (path BOT 0.63499 -92.07500 -92.07500 -92.07500 -90.25500 -92.16000 -90.17000
+   -92.16000 -87.00000) (net "#00001"))
+   (wire (path BOT 0.63499 55.84000 -87.00000 58.37500 -89.53500 67.31000 -89.53500 68.58000 -88.26500
+    68.58000 -85.72500 69.85000 -84.45500 74.45500 -84.45500 77.00000 -87.00000) (net "#00001")
+  )
+   (wire (path BOT 0.63499 -71.00000 -87.00000 -68.46500 -89.53500 -59.69000 -89.53500
+    -58.42000 -88.26500 -58.42000 -84.45500 -57.15000 -83.18500 -53.89500 -83.18500 -50.08000 -87.00000
+  ) (net "#00001"))
+   (wire (path BOT 0.63499 -127.00000 -51.92000 -129.19075 -54.11075 -129.19075 -59.05500
+    -127.92075 -60.32500 -125.73000 -60.32500 -124.46000 -61.59500 -124.46000 -65.46000
+   -127.00000 -68.00000) (net "#00001"))
+   (wire (path BOT 0.63499 -92.08000 -38.00000 -94.72000 -40.64000 -105.44000 -40.64000
+   -108.08000 -38.00000) (net "#00001"))
+   (wire (path BOT 0.63499 -29.00000 -87.00000 -26.46500 -89.53500 -15.61500 -89.53500
+   -13.08000 -87.00000) (net "{VOID}"))
+   (wire (path BOT 0.63499 -8.00000 -87.00000 -4.19500 -90.80500 4.03500 -90.80500 7.84000 -87.00000
+  ) (net "{VOID}"))
+  (wire (path BOT 0.63499 -13.08000 -87.00000 -8.00000 -87.00000) (net "{VOID}"))
+  (wire (path BOT 0.63499 7.84000 -87.00000 12.92000 -87.00000) (net "{VOID}"))
+   (wire (path BOT 0.63499 107.31500 -89.53500 106.04500 -89.53500 105.41000 -88.90000
+  ) (net "#00001") (type protect))
+  (wire (path BOT 0.63499 34.92000 -87.00000 29.84000 -87.00000) (net "{VOID}"))
+   (wire (path BOT 0.63499 12.92000 -87.00000 15.45500 -89.53500 27.30500 -89.53500 29.84000 -87.00000
+  ) (net "{VOID}"))
+   (wire (path BOT 0.63499 34.92000 -87.00000 38.09000 -90.17000 46.35500 -90.17000 47.37619 -89.14881
+  ) (net "#00001"))
+   (wire (path BOT 0.63499 47.37619 -89.14881 47.62500 -88.90000 47.62500 -84.45500 48.89500 -83.18500
+   52.02500 -83.18500 55.84000 -87.00000) (net "#00001"))
+   (wire (path BOT 0.63499 47.37619 -89.14881 54.00000 -105.00000 30.00000 -95.00000
+   26.00000 -95.00000 29.84000 -87.00000) (net "{VOID}") (type protect))
+   (wire (path BOT 0.63499 47.37619 -89.14881 22.86000 -30.48000 110.49000 -30.48000
+    113.00000 -32.99000 113.00000 -87.02500 110.49000 -89.53500 107.31500 -89.53500)
+   (net "#00001") (type protect))
+   (wire (path BOT 0.63499 -108.08000 -87.00000 -86.56239 -65.48239 -50.80000 -65.48239
+   -49.00000 -63.68239 -49.00000 -38.00000) (net "#00002"))
+   (wire (path BOT 0.63499 -103.00000 -87.00000 -83.94500 -67.94500 -45.72000 -67.94500
+   -43.92000 -66.14500 -43.92000 -38.00000) (net "#00003"))
+   (wire (path BOT 0.63499 -87.08000 -87.00000 -87.08000 -74.29500 -85.81000 -73.02500
+   -40.64000 -73.02500 -38.84000 -71.22500 -38.84000 -38.00000) (net "#00004"))
+   (wire (path BOT 0.63499 -82.00000 -87.00000 -82.00000 -75.56500 -80.73000 -74.29500
+   -35.56000 -74.29500 -33.76000 -72.49500 -33.76000 -38.00000) (net "#00005"))
+   (wire (path BOT 0.63499 -65.92000 -87.00000 -65.92000 -78.10500 -64.65000 -76.83500
+   -29.84500 -76.83500 -28.08000 -75.07000 -28.08000 -38.00000) (net "#00006"))
+   (wire (path BOT 0.63499 -60.84000 -87.00000 -60.84000 -79.37500 -59.57000 -78.10500
+   -24.76500 -78.10500 -23.00000 -76.34000 -23.00000 -38.00000) (net "#00007"))
+   (wire (path BOT 0.63499 -45.00000 -87.00000 -37.37500 -79.37500 -19.68500 -79.37500
+   -17.92000 -77.61000 -17.92000 -38.00000) (net "#00008"))
+   (wire (path BOT 0.63499 -39.92000 -87.00000 -33.56500 -80.64500 -14.60500 -80.64500
+   -12.84000 -78.88000 -12.84000 -38.00000) (net "#00009"))
+   (wire (path BOT 0.63499 -23.92000 -87.00000 -20.10500 -83.18500 -8.89000 -83.18500
+   -7.08000 -81.37500 -7.08000 -38.00000) (net "#00010"))
+   (wire (path BOT 0.63499 -18.84000 -87.00000 -16.29500 -84.45500 -5.71500 -84.45500
+   -4.44500 -83.18500 -4.44500 -40.44500 -2.00000 -38.00000) (net "#00011"))
+   (wire (path BOT 0.63499 -2.92000 -87.00000 -2.92000 -72.39000 3.08000 -66.39000 3.08000 -38.00000
+  ) (net "#00012"))
+   (wire (path BOT 0.63499 2.16000 -87.00000 8.16000 -81.00000 8.16000 -38.00000) (net "#00013")
+  )
+   (wire (path BOT 0.63499 18.00000 -87.00000 18.00000 -62.50000 13.92000 -58.42000 13.92000 -38.00000
+  ) (net "#00014"))
+   (wire (path BOT 0.63499 23.08000 -87.00000 23.08000 -83.45500 19.00000 -79.37500 19.00000 -38.00000
+  ) (net "#00015"))
+   (wire (path BOT 0.63499 35.00000 -38.00000 60.92000 -63.92000 60.92000 -87.00000)
+   (net "#00018"))
+   (wire (path BOT 0.63499 40.08000 -38.00000 63.50000 -61.42000 63.50000 -84.50000 66.00000 -87.00000
+  ) (net "#00019"))
+   (wire (path BOT 0.63499 45.16000 -38.00000 64.77000 -57.61000 64.77000 -81.91500 66.04000 -83.18500
+   78.26500 -83.18500 82.08000 -87.00000) (net "#00020"))
+   (wire (path BOT 0.63499 50.24000 -38.00000 66.04000 -53.80000 66.04000 -80.64500 67.31000 -81.91500
+   82.07500 -81.91500 87.16000 -87.00000) (net "#00021"))
+   (wire (path BOT 0.63499 -54.76000 -38.00000 -54.76000 -30.48000 -56.03000 -29.21000
+    -132.71500 -29.21000 -133.98500 -30.48000 -133.98500 -82.17500 -127.00000 -89.16000
+  ) (net "#00022"))
+   (wire (path BOT 0.63499 -59.84000 -38.00000 -59.84000 -58.42000 -61.11000 -59.69000
+   -105.41000 -59.69000 -118.80000 -73.08000 -127.00000 -73.08000) (net "#00023"))
+   (wire (path BOT 0.63499 -64.92000 -38.00000 -64.92000 -55.24500 -66.67500 -57.00000
+   -127.00000 -57.00000) (net "#00024"))
+   (wire (path BOT 0.63499 -70.00000 -38.00000 -74.98000 -33.02000 -127.63500 -33.02000
+   -129.08000 -34.46500 -129.08000 -38.00000) (net "#00025"))
+   (wire (path BOT 0.63499 -113.16000 -38.00000 -113.16000 -41.91000 -111.89000 -43.18000
+   -86.18000 -43.18000 -81.00000 -38.00000) (net "#00026"))
+   (wire (path BOT 0.63499 -97.16000 -38.00000 -93.45000 -34.29000 -77.47000 -34.29000
+   -75.92000 -35.84000 -75.92000 -38.00000) (net "#00027"))
+   (wire (path BOT 0.63499 87.00000 -38.00000 90.91000 -41.91000 94.61500 -41.91000 95.88500 -40.64000
+    95.88500 -34.29000 94.61500 -33.02000 60.98000 -33.02000 56.00000 -38.00000) (net "#00028")
+  )
+   (wire (path BOT 0.63499 92.08000 -38.00000 88.37000 -34.29000 61.08000 -34.29000 61.08000 -38.00000
+  ) (net "#00029"))
+   (wire (path BOT 0.63499 102.92000 -87.00000 94.02500 -78.10500 74.29500 -78.10500
+    73.02500 -76.83500 73.02500 -48.89500 66.16000 -42.03000 66.16000 -38.00000) (net "#00030")
+  )
+   (wire (path BOT 0.63499 108.00000 -87.00000 108.00000 -78.74000 108.58500 -78.15500
+    108.58500 -46.35500 106.92338 -44.69338 85.72500 -44.69338 84.45500 -43.42338 84.45500 -36.83000
+   83.18500 -35.56000 73.68000 -35.56000 71.24000 -38.00000) (net "#00031"))
+ )
+)
